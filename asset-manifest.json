@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/product-list-with-cart/static/css/main.8344f537.css",
+    "main.js": "/product-list-with-cart/static/js/main.1b21f583.js",
+    "static/js/453.707bc0b2.chunk.js": "/product-list-with-cart/static/js/453.707bc0b2.chunk.js",
+    "static/media/image-brownie-desktop.jpg": "/product-list-with-cart/static/media/image-brownie-desktop.d7aa002eaa5a758791eb.jpg",
+    "static/media/image-tiramisu-desktop.jpg": "/product-list-with-cart/static/media/image-tiramisu-desktop.788532738e368d823eec.jpg",
+    "static/media/image-waffle-desktop.jpg": "/product-list-with-cart/static/media/image-waffle-desktop.d5fd10e216e40338fb44.jpg",
+    "static/media/image-pie-desktop.jpg": "/product-list-with-cart/static/media/image-pie-desktop.5723c0dfc95c54781af3.jpg",
+    "static/media/image-creme-brulee-desktop.jpg": "/product-list-with-cart/static/media/image-creme-brulee-desktop.1226c76b5d7d92977bad.jpg",
+    "static/media/image-cake-desktop.jpg": "/product-list-with-cart/static/media/image-cake-desktop.357e853d078bca5361e0.jpg",
+    "static/media/image-baklava-desktop.jpg": "/product-list-with-cart/static/media/image-baklava-desktop.38a07881209c68374fb6.jpg",
+    "static/media/image-macaron-desktop.jpg": "/product-list-with-cart/static/media/image-macaron-desktop.a049dff5cd9efb9cbb4c.jpg",
+    "static/media/image-panna-cotta-desktop.jpg": "/product-list-with-cart/static/media/image-panna-cotta-desktop.5d3aeb4bde29011c2258.jpg",
+    "static/media/illustration-empty-cart.svg": "/product-list-with-cart/static/media/illustration-empty-cart.c2bca079754e885ead5da25eb67b468e.svg",
+    "index.html": "/product-list-with-cart/index.html",
+    "static/media/icon-carbon-neutral.svg": "/product-list-with-cart/static/media/icon-carbon-neutral.13953e5e1e4c166b4acd1fb7ead600c5.svg",
+    "static/media/icon-add-to-cart.svg": "/product-list-with-cart/static/media/icon-add-to-cart.12141fdf0da9c38c6421fe087a5b5125.svg",
+    "static/media/icon-remove-item.svg": "/product-list-with-cart/static/media/icon-remove-item.f6d5b4bec643d592f9e7f7c6ce5bbd00.svg",
+    "static/media/icon-increment-quantity.svg": "/product-list-with-cart/static/media/icon-increment-quantity.198f568ac3a5878a42e68f03afb1837b.svg",
+    "static/media/icon-decrement-quantity.svg": "/product-list-with-cart/static/media/icon-decrement-quantity.94e32888eee4ef88beccedc6f9534341.svg",
+    "main.8344f537.css.map": "/product-list-with-cart/static/css/main.8344f537.css.map",
+    "main.1b21f583.js.map": "/product-list-with-cart/static/js/main.1b21f583.js.map",
+    "453.707bc0b2.chunk.js.map": "/product-list-with-cart/static/js/453.707bc0b2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8344f537.css",
+    "static/js/main.1b21f583.js"
+  ]
+}
