@@ -1,38 +1,231 @@
-.App {
-  text-align: center;
+.outer-container {
+  display: flex;
+  flex-direction: row;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.inner-container-1 {
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 0 4rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.inner-container-2  {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 2rem;
+  background-color: #FFFFFF;
+  height: max-content;
+  padding: 0 2.1rem 1.2rem 2.1rem;
+  border-radius: 7px;
+  margin-left: -5.5rem;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 800px;
+  margin-top: 0.5rem;
+  margin-bottom: 3rem;
+  gap: 30px;
+}
+
+.img-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.in-cart-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  width: 130px;
+  margin-bottom: -0.8rem;
+  left: 17%;
+  font-size: 0.65rem;
+  font-weight: 600;
+  padding: 0.5rem 1.1rem;
+  border-radius: 16px;
+  border: none;
+  color: #FFFFFF;
+  background-color: #C73B0F;
+}
+
+.in-cart-btn  > img {
+  width: 8px;
+  height: 8px;
+  cursor: pointer;
+  border-radius: 50%;
+  border: 0.5px solid #FFFFFF;
+  padding: 0.1rem;
+}
+
+.img-container-btn {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  width: 130px;
+  margin-bottom: -0.8rem;
+  left: 17%;
+  font-size: 0.65rem;
+  font-weight: 500;
+  padding: 0.5rem 1.1rem;
+  border-radius: 16px;
+  border: none;
+  background-color: #FFFFFF;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+.img-container-btn > img {
+  width: 15px;
+  height: 15px;
+  margin-right: 0.5rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.dessert-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 7px;
+}
+
+.dessert-category {
+  color: #87635A;
+  font-size: 0.9rem;
+}
+
+.dessert-name {
+  font-size: 1.06rem;
+  font-weight: 600;
+  margin: 0.2rem 0;
+}
+
+.dessert-price {
+  color: #C73B0F;
+  font-size: 1.06rem;
+  font-weight: 500;
+}
+
+.your-cart-title {
+  color: #C73B0F;
+  font-size: 1rem;
+  align-self: flex-start;
+  margin-left: -1rem;
+ 
+}
+
+.empty-cart-icon {
+  width: 75px;
+  height: 75px;
+}
+
+.added-items-here {
+  margin-top: 0.5rem;
+  font-size: 0.7rem;
+}
+
+.cart-item-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 200px;
+  padding: 0.8rem 0;
+  border-bottom: 1px solid #F5EEEC;
+}
+
+.cart-item-name {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #260F08;
+}
+
+.cart-item-details {
+  display: flex;
+  font-size: 0.7rem;
+}
+
+.cart-item-quantity {
+  font-weight: 600;
+  color: #C73B0F;
+}
+
+.cart-item-price {
+  margin: 0 0.8rem;
+  color: #AD8A85;
+}
+
+.cart-item-total {
+  color: #87635A;
+}
+
+.cart-item-price-and-total {
+  display: flex;
+}
+
+.remove-from-cart-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10px;
+  height: 10px;
+  border: 1px solid #CAAFA7;
+  border-radius: 50%;
+}
+.remove-from-cart-icon {
+  width: 7px;
+  height: 7px;
+}
+
+.order-total-container {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.order-total {
+  font-size: 0.75rem;
+}
+
+.total {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.carbon-neutral-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  background-color: #FCF8F6;
+  font-size: 0.7rem;
+  padding: 0.6rem 0;
+}
+
+.carbon-neutral-container > span {
+  margin-left: 0.3rem;
+}
+
+.carbon-neutral-container > img {
+  width: 17px;
+  height: 17px;
+}
+
+.confirm-order {
+  width: 200px;
+  background-color: #C73B0F;
+  color: #FFFFFF;
+  border: none;
+  outline: none;
+  border-radius: 16px;
+  font-size: 0.7rem;
+  padding: 0.5rem 0;
+  margin-top: 1rem;
+  cursor: pointer;
 }
